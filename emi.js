@@ -63,7 +63,7 @@ function calculateEMI() {
 
 const form = document.querySelector("#form")
 const submitButton = document.querySelector("#submit")
-const scriptURL ="https://script.google.com/macros/s/AKfycbxwli1amvglvKHYAX7xdEuWGl8lpMzs49JTBuc8L1Bz8mQJx9BNK7AuwwM_e-71tDCOVA/exec";
+const scriptURL ="API address";
 form.addEventListener('submit', e => {
     submitButton.disabled = true;
     e.preventDefault();
