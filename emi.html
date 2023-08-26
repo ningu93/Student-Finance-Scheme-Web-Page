@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="emi.css">
+    <script src="emi.js"></script>
+</head>
+<body>
+    <div class="grid-container2">
+        <div class="grid-item3">
+            <div id="heading">
+                <img src="C:\Users\Windows\Desktop\Ningu(web page)\project2\photo\cad.jpg" width="470px" height="100px" alt="Noimage"/>
+            </div>
+        </div>
+        <div class="grid-item3">
+            <u><h2 style="margin-top: 1px;margin-bottom: 15px;color: red;">STUDY NOW AND PAY LATER STUDENT FINANCE SCHEME</h2></u>
+        </div>
+        <div class="grid-item3">
+            <div id="heading">
+                <img src="C:\Users\Windows\Desktop\Ningu(web page)\project2\photo\it logo.png" width="470px" height="100px" alt="Noimage"/>
+            </div>
+        </div>
+    </div>
+    <h2 style="text-align: center;"><u>Details of the Student Finance Scheme are below:</u></h2>
+<form id="emiForm" method="post" 
+        action="https://script.google.com/macros/s/AKfycbxwli1amvglvKHYAX7xdEuWGl8lpMzs49JTBuc8L1Bz8mQJx9BNK7AuwwM_e-71tDCOVA/exec">
+    <div class="grid-container">
+        <div class="grid-item">
+            <p style="color: black;font-size: 25px;">As a part of encouragement to the students who want to study <b>CAD/CAM/CAE/IT</b> software's in our 3 Training Institutes, we have initiated the <b style="color: blue;">"STUDY NOW AND PAY LATER"</b> Student Finance Scheme with lowest interest rates.</p>
+        </div>
+        <div class="grid-item1">
+
+        <label><b>Name:</b></label>
+                <input name="Student Name" type="text" placeholder="Enter your Full Name" required><br><br>
+        
+                <label><b>Mobile Number:</b></label>
+                <input name="Mobile" type="tel" maxlength="10" placeholder="Enter your number" required/><br><br>
+                    
+                <label for="loanAmount"><b>Loan Amount:</b></label>
+                <input name="LoanAmount" type="number" id="loanAmount" placeholder="Enter the Loan Amount" required><br><br>
+            
+                <label for="initialAmount"><b>Initial Amount:</b></label>
+                <input name="InitialAmount"  type="number" id="initialAmount" placeholder="Enter the Initial Amount" required><br><br>
+                
+                <input type="hidden" name="Tenure(Months)" id="te" value="">
+                <input type="hidden" name="InterestRate" id="ir" value="">
+                <input type="hidden" name="RegisterAmount" id="ra" value="">
+                <input type="hidden" name="LoanEMI" id="emi" value="">
+    
+    <label for="tenure"><b>Select Tenure:</b></label>
+    <select id="tenure">
+        <option value="6">6 months</option>
+        <option value="8">8 months</option>
+        <option value="10">10 months</option>
+        <option value="12">1 year</option>
+        <option value="18">18 months</option>
+        <option value="24">2 years</option>
+    </select><br><br>
+
+    <input id="btn" type="button" value="Calculate EMI" onclick="calculateEMI()">
+    <button id="btn"  type="submit">Submit</button>   
+</div>
+    <div class="grid-item">
+        
+    </div>
+    </div>
+</form>
+
+<br>
+
+<table id="resultTable">
+    <tr>
+        <th><u>Loan Amount</u></th>
+        <th><u>Initial Amount</u></th>
+        <th><u>Tenure</u></th>
+        <th><u>Interest Rate</u></th>
+        <th><u>Register Amount</u></th>
+        <th><u>Loan EMI</u></th>
+    </tr>
+</table><br>
+    <div class="grid-container1">
+        <div class="grid-item">
+            <img src="C:\Users\Windows\Desktop\Ningu(web page)\project2\photo\Varthana-Logo.png" alt="Noimage"/>
+            <h2><u>Our Finance Partner</u></h2>
+        </div>
+        <div class="grid-item2">
+            <form class="pure-form"  method="POST"
+                action="https://script.google.com/macros/s/AKfycbwoGAzNp6RLRCQBpmDJwauzlV3lQDHbuegL1FG4RQqdOPIIyzYkag5L70F3noSsrzagNw/exec">
+                <h3 style="color: red;"><u>Submit the below Registration details at any of our 2 Institutes to avail discount:</u></h3>
+
+                <label><b>Name(As per Aadhaar):</b></label>
+                <input name="First Name" type="text" id="fn" placeholder="Enter your Full name" required><br>
+                        
+                <label><b>Father Name:</b></label>
+                <input name="Father Name" id="ln" type="text" placeholder="Enter your Father name" required><br>
+                        
+                <label><b>Mobile Number:</b></label>
+                <input name="Mobile Number" id="tel" type="tel" maxlength="10" placeholder="Enter your number" required/><br>
+
+                <label><b>Date of Birth:</b></label>
+                <input name="DOB" id="tel" type="date"  placeholder="Enter your DOB" required/><br>
+
+                <label><b>Email id:</b></label>
+                <input name="Email" type="email" placeholder="Enter your mail" required id="mail"><br>
+
+                <label><b>Qualification:</b></label>
+                <input name="Qualification" type="text" placeholder="Enter your Qualification" required id="qualification"><br>
+    
+                <label id="do"><b>College/Work Place:</b></label>
+                <input name="College/Work Place" id="dob" type="text" placeholder="College/Work Place Name" required><br>
+
+                <label id="aq"><b>Address:</b></label>
+                <input name="Address" id="aq1" type="text" placeholder="Enter your address" required><br>
+
+                <label style="color: blue;"><b>Software Courses Interested to learn:</b></label>
+                <input name="Course" id="course" type="text" placeholder="Enter the Interested course" required><br>
+
+                <p><u>Note:</u><br>
+                Non working Students Interested to learn courses and opting the finance scheme need to submit Aadhaar, Pan card , local address & 3 months bank statement of Working Parents/Relative for processing loan.</p>
+                        
+                <button type="submit" id="a">Submit</button>
+            </form>
+
+        </div>
+        <div class="grid-item">
+            <img src="C:\Users\Windows\Desktop\Ningu(web page)\project2\photo\bhaskars.jpg" alt="Noimage" width="400px" height="400px" />
+            <h2><u>Placement Partner</u></h2>
+        </div>
+    </div>
+
+    <h3 style="text-align: center;background-color: chocolate;font-family: Papyrus, fantasy ;"><marquee>Feel free to call us for any enquiry</marquee></h3>
+    <div class="grid-container4">
+        <div class="grid-item4">
+            <img src="https://cdn-icons-gif.flaticon.com/6844/6844372.gif" alt="Avatar" class="avatar">
+            <b><a href="https://goo.gl/maps/Yyr8i6qLJEJcRzzh9" style="color: red;">Main Office 1:</a></b>
+        </div>
+        <div class="grid-item4">
+            <b><p style="color: black;">No.23/2, CADDESK, 2<sup>nd</sup> Floor, Begur Main <br>Road, Bommanahalli, Bangalore - 560 068</p></b>
+        </div>
+        <div class="grid-item4">
+           <b> <p style="color: black;"><img src="https://cdn-icons-png.flaticon.com/128/220/220236.png" alt="Avatar" class="avatar">+91 80500 31122</p></b>
+            <a href="https://caddeskbangalore-bommanahalli.com/" style="color: blue;"><img src="https://cdn-icons-png.flaticon.com/128/1040/1040243.png" alt="Avatar" class="avatar">caddeskbangalore-bommanahalli.com/</a>
+        </div>
+        <b><p style="margin-top: 0px;color: black;font-weight: bold; ">____________________________________________________________________________________________________________________________________________________________________</p></b>
+    </div>
+    
+    <div class="grid-container4">
+        <div class="grid-item4">
+            <img src="https://cdn-icons-gif.flaticon.com/6844/6844372.gif" alt="Avatar" class="avatar">
+           <b> <a href="https://goo.gl/maps/Yyr8i6qLJEJcRzzh9" style="color: red;">Branch Office 2:</a></b>
+        </div>
+        <div class="grid-item4">
+            <b><p style="color: black;">No.132, CADDESK, 1<sup>st</sup> Floor, Next to SRS <br>Travels, Madiwala, Bangalore - 560 068</p></b>
+        </div>
+        <div class="grid-item4">
+           <b> <p style="color: black;"><img src="https://cdn-icons-png.flaticon.com/128/220/220236.png" alt="Avatar" class="avatar">+91 80500 41122</p></b>
+            <a href="https://caddeskbangalore-madiwala.com/" style="color: blue;"><img src="https://cdn-icons-png.flaticon.com/128/1040/1040243.png" alt="Avatar" class="avatar">caddeskbangalore-madiwala.com/</a>
+        </div>
+        <b><p style="margin-top: 0px;">____________________________________________________________________________________________________________________________________________________________________</p></b>
+    </div>
+
+    
+
+</body>
+</html>

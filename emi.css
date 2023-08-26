@@ -1,0 +1,200 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 600px 400px auto;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto 600px auto;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 400px auto auto;
+    margin-top: 0px;
+}
+.grid-item4 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+
+.grid-item2 {padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    border: 2px solid black;
+    background: #fff;
+    position: relative;
+    justify-content: center;
+    width: 600px;
+    height: 700px;
+    box-shadow: 10px 10px 10px rgb(136, 135, 135);
+}
+
+
+.grid-item1 {padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    border: 2px solid black;
+    background-color: rgb(134, 171, 241);
+}
+
+.grid-item3 {padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item {padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #000000;
+    
+    
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+#resultTable {
+    background-color: rgb(255, 255, 255);
+}
+#btn {
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+    border-right: 20px;
+    border-top: 20px;
+    margin-right: 20px;
+}
+
+#btn:hover {
+    color: #f2f2f2;
+    background-color: brown;
+}
+
+#heading {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    
+}
+
+    #fn{ margin-bottom: 15px;
+        
+    padding: 5px;}
+    
+    #ln{margin-bottom: 15px;
+        padding: 5px;}
+    
+    #tel{padding: 5px;
+            margin-bottom: 15px;}
+    
+    #dob{margin-bottom: 15px;
+        padding: 5px;}
+    #do{margin-bottom: 15px;
+           }
+    
+    
+    #aq1{
+        padding: 5px;
+    margin-bottom: 15px;}
+
+#qualification{
+    margin-bottom: 15px;
+    padding: 5px;
+    
+}
+
+#mail{padding: 5px;
+    margin-bottom: 15px;
+}
+
+#course{
+    padding: 5px;
+   
+}
+p{color: brown;}
+
+button{margin-bottom: 15px;
+    background-size: 5000%;
+    border-style: groove;
+    border: 3px solid blue;
+    background-color: rgb(243, 237, 237);
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+    border-right: 20px;
+    border-top: 20px;
+    margin-right: 20px;
+    min-width: 150px; height: 50px; position: relative; border-radius: 50px; cursor: pointer}
+
+    button {
+        position: relative;
+        color: yellow;
+        
+      }
+      button:hover::after {
+        opacity: 0.5;
+      }
+      
+      button::after {
+        content: "";
+        display: block;
+        position: absolute;
+        background: #010101;
+        inset: 5px;
+        border-radius: 45px;
+        z-index: 1;
+        transition: opacity .5s ease;
+      }
+
+      @property --r {
+        syntax: '<angle>';
+        inherits: false;
+        initial-value: 0deg;
+        }
+          
+    #a {
+        background: conic-gradient(from var(--r), #222 0%, #eee 10%, #222 20%);
+        animation: rotating 3s linear infinite;
+        }
+    @keyframes rotating {
+        0% {
+        --r: 0deg;
+        }
+        100% {
+            --r: 360deg;
+        }
+    }
+
+img{
+    box-shadow: 10px 10px 10px rgb(136, 135, 135);
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
