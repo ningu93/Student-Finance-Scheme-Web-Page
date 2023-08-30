@@ -26,3 +26,8 @@ The Student Finance Scheme Web Page project is designed to provide a user-friend
 **EMI Calculation:** Use the EMI calculator section to input your desired loan amount, initial amount, and select a tenure from the dropdown menu. Click the "Calculate EMI" button to view the calculated EMI, interest rate, and other details in the results table.
 
 **Application Form:** Fill out the application form with your personal details and course preferences. Click the "Submit" button to send your application data to the external Google Script URLs for processing.
+
+
+# Outputs
+**EMI Calculater**
+![emi1](https://github.com/ningu93/Student-Finance-Scheme-Web-Page/assets/142236143/33b2b787-c70b-46b1-87ca-ae5b0f9d601d)
