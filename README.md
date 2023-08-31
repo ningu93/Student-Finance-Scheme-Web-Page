@@ -31,3 +31,11 @@ The Student Finance Scheme Web Page project is designed to provide a user-friend
 # Outputs
 **EMI Calculater**
 ![emi1](https://github.com/ningu93/Student-Finance-Scheme-Web-Page/assets/142236143/33b2b787-c70b-46b1-87ca-ae5b0f9d601d)
+
+**User Interface**
+
+![Screenshot 2023-08-31 103552](https://github.com/ningu93/Student-Finance-Scheme-Web-Page/assets/142236143/710d16ed-1783-40fe-8047-a7ca2cdcd29a)
+
+**Address**
+
+![Screenshot 2023-08-31 103707](https://github.com/ningu93/Student-Finance-Scheme-Web-Page/assets/142236143/02df0a1e-d05c-4693-be98-0d7f86863991)
